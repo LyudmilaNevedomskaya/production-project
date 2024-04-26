@@ -15,6 +15,7 @@
     "esModuleInterop": true,
     "plugins": [{"name": "typescript-plugin-css-modules"}]
   },
+  
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
