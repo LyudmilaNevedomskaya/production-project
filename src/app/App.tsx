@@ -4,6 +4,7 @@ import { classNames } from "../shared/lib/classNames/classNames";
 import { useTheme } from "./providers";
 import { AppRouter } from "./providers/router";
 import { Navbar } from "src/widgets/Navbar";
+import { Sidebar } from "src/widgets/Sidebar";
 
 
 
@@ -12,10 +13,10 @@ const App = () => {
   return (
     <div className={classNames('app', {}, [theme])}>
       <Navbar />
-      {/* <Link to={"/"}>Home</Link>
-      <Link to={"/about"}>About</Link> */}
-      <AppRouter />
-      
+      <div className="content-page">
+        <Sidebar />
+        <AppRouter />
+      </div>
     </div>
   );
 };
