@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import { classNames } from './classNames';
+import { classNames } from 'shared/lib/classNames/classNames';
 
 /* eslint-disable linebreak-style */
 describe('classNames', () => {
