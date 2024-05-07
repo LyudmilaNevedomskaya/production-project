@@ -8,5 +8,4 @@ describe('Sidebar', () => {
         render(<SidebarWithTranslation />);
         expect(screen.getByTestId('sidebar')).toBeInTheDocument();
     });
-
 });
